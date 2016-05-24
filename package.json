@@ -1,0 +1,12 @@
+{
+  "name": "tut-responsive",
+  "version": "0.0.1",
+  "author": "SeasonLi @ season.chopsticks@gmail.com",
+  "repository": {
+    "type": "git"
+  },
+  "devDependencies": {
+    "delights": "^0.0.1"
+  },
+  "dependencies": {}
+}

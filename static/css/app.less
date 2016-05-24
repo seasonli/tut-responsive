@@ -1,0 +1,33 @@
+@import '../less/variables.less';
+@import '../less/reset.less';
+@import '../less/mixins.less';
+
+// 320px
+html{
+  font-size: 12px;
+  opacity: 0;
+}
+
+body{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #ddd;
+  font-size: 1rem;
+}
+
+#wrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  &>*{
+    width: 93.75%;
+    border-radius: 3px;
+    box-shadow: 0 0 2px #666;
+    background: #eee;
+  }
+}
